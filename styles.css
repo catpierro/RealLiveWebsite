@@ -1,14 +1,36 @@
+body {
+ background-image: url("sleepwalker2.jpg");
+ background-size: 170%;
+}
+
 table {
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
+    text-align: center;
+    font-family: cursive;
 }
 
 td {
     border: 1px solid black;
-    padding: 2px;
+    padding: 6px;
+    background-color: #fae1ec;
 }
 
 th {
-    border: 1px solid black;
-    padding: 2px;
+    border: 2px solid black;
+    padding: 6px;
+    background-color: #fca7cc;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#equal-columns {
+  table-layout: fixed ;
+  width: 48% ;
+}
+table#equal-columns td {
+  width: 24% ;
 }
